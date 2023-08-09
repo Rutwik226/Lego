@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.7s;
+}
+div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+.navbar{
+    background-color: #b2b2b2;
+}
+.nav-main{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.website-gap{
+    margin-left: 7%;
+    width: 84%;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    width: 20%;
+}
+.dot{
+    color: #dc3545;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.addressdiv{
+    width: 50%;
+    margin-left: 30%;
+}
+.addressdiv .address{
+    width: 50%;
+}
+.address .icon{
+    width: 15%;
+}
+.address-text{
+    width: 80%;
+}
+.address .icon i{
+    font-size: 32px;
+
+}
+.text-yellow{
+    color: yellow;
+}
+.text-red{
+    color: #dc3545;
+}
+.address-text{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+.menu{
+    width: 50%;
+}
+.social-icons{
+    width: 20%;
+    margin-left: 30%;
+}
+.menu .menuitems{
+    width: 16.6666%;
+    font-size: 16px;
+    text-align: center;
+}
+.social-icons .icon{
+    width: 33.33333%;
+}
+.text-blue{
+    color: #16c3b0;
+}
+.text-green{
+    color: #71bc42;
+}
+
+.nav-menu{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: white;
+    border-radius: 43px;
+}
+
+
+.banner{
+    background-color: #b2b2b2;
+}
+.text-sm{
+    font-size:14px;
+}
+.text-lg{
+    font-size: 40px;
+}
+.text-lg2{
+    font-size: 30px;
+}
+.text-md{
+    font-size: 16px;
+}
+.indie{
+    font-family: "Indie flower";
+}
+.intro{
+    font-weight: bold;
+    color: white;
+}
+.more{
+    color: white;
+}
+.banner .website-gap div{
+    margin-top: 10px;
+}
+.bannerinfo{
+    width: 30%;
+}
+.site-section{
+    padding: 100px 0;
+}
+.banner .website-gap .btn{
+    margin-top: 50px;
+}
+.btn-red{
+    background-color:#dc3545;
+    color: white;
+}
+.btn button{
+    padding: 25px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.btn-yellow{
+    background-color: #fdb62f;
+}
+.btn-yellow:hover{
+    background-color: #d49929;
+}
+.btn-red:hover{
+    background-color: #b82c3a;
+    cursor:pointer;
+}
+.section-image{
+    width: 50%;
+}
+.section-image img{
+    width: 100%;
+}
+
+
+.moreinfo-text{
+    width: 40%;
+    margin-left: 10%;
+    vertical-align: top;
+}
+.moreinfo-text .div{
+    margin-top: 10px;
+}
+.moreinfo-text .btn{
+    margin-top: 50px;
+}
+
+
+.std-spacing{
+    background-color: #f6f5f5;
+    margin-top: 100px;
+}
+.contact-header div{
+    text-align: center;
+}
+.contact-header{
+    width: 70%;
+    margin-left: 15%;
+}
+.form-group{
+    margin-top:20px;
+}
+.contact-form{
+    width: 67.5%;
+    margin-left: 15%;
+}
+.addr{
+    width: 27.5%;
+    margin-left: 5%;
+}
+.inputdiv-half{
+    width: 47.5%;
+}
+.ml-5{
+    margin-left: 5%;
+}
+.my-form-control{
+    width: 100%;
+    padding: 25px 20px 25px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.my-form-control:hover{
+    border: 1px solid black;
+}
+.my-form-control:focus{
+    border: 2px solid red;
+}
+
+
+.package{
+    width: 30%;
+    background-color: #dc3545;
+    position: relative;
+    box-sizing: border-box;
+}
+.package .p-logo{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    text-align: center;
+    background-color: #dc3545;
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    transform: translate(-50%,0);
+}
+.package .p-logo i{
+    font-size: 40px;
+    margin-top: 15px;
+    color: white;
+}
+.package p{
+    margin-top: 50px;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+.cy{
+    background-color: #d49929;
+}
+.cy .p-logo{
+    background-color: #d49929;
+}
+.cg{
+    background-color: #71bc42;
+}
+.cg .p-logo{
+    background-color: #71bc42;
+}
+
+
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+}
+.banner{
+    margin-top: 210px;
+}
+.hide , .hide *{
+    height: 0;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.b-white{
+    background-color: white;
+}
+.banner{
+    background-image: url("../Lego/Images/kid_transparent.png.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+@media (max-width: 768px) {
+    .website-gap {
+      margin-left: 5%;
+      width: 90%;
+    }
+  
+    .logo {
+      font-size: 30px;
+    }
+  
+    .nav-menu .menu .menuitems {
+      width: 33.3333%;
+    }
+  
+    .social-icons {
+      margin-left: 25%;
+    }
+  
+    .banner {
+      margin-top: 180px;
+    }
+  
+    .banner .website-gap {
+      text-align: center;
+    }
+  
+    .section-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .moreinfo-text {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+    .package {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .package .p-logo {
+      left: 20px;
+      top: -35px;
+    }
+  }
+  
+  /* Media query for screens between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .website-gap {
+      margin-left: 5%;
+      width: 90%;
+    }
+  
+    .menu .menuitems {
+      font-size: 14px;
+    }
+  
+    .moreinfo-text {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+@media (max-width: 768px) {
+  /* Existing media query code for other elements */
+  
+  .p-20{
+    margin-left: 5%;
+  }
+  .site-section {
+    padding: 50px 0;
+  }
+
+  .moreinfo {
+    margin-top: 50px;
+  }
+
+  .moreinfo-text {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .package {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .package.cy,
+  .package.cg,
+  .package.p-logo {
+    left: auto;
+    top: auto;
+  }
+}
+
+/* Media query for screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+  
+  .site-section {
+    padding: 80px 0;
+  }
+
+  .moreinfo-text {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
